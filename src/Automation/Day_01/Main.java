@@ -5,6 +5,7 @@ public class Main {
         System.out.println("Hello");
         System.out.println("Hi");
         System.out.println("again ");
+        System.out.println("mac use and windows user the same are happy");
 
     }
 }
