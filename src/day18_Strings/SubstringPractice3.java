@@ -7,9 +7,9 @@ public class SubstringPractice3 {
         int indexOf_ = email.indexOf("_");
         int indexOfAt = email.lastIndexOf("@");
 
-        String lastName = email.substring(0,  indexOf_ );
+        String firstName = email.substring(0,  indexOf_ );
 
-        String firstName = email.substring(indexOf_+1,  indexOfAt);
+        String lastName = email.substring(indexOf_+1,  indexOfAt);
 
         String domain = email.substring(indexOfAt + 1, email.lastIndexOf(".") );
 
